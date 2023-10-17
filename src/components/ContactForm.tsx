@@ -49,7 +49,7 @@ export default function ContactForm() {
                 </label>
                 <textarea rows={10} id="message" name="message" required value={form.message} onChange={onChange} />
 
-                <button>Submit</button>
+                <button className="text-black font-bold bg-yellow-400">Submit</button>
             </form>
         </>
     );
